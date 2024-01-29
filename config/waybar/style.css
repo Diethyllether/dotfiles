@@ -1,0 +1,76 @@
+* {
+	font-family: JetBrainsMono;
+	font-size: 11px;
+}
+
+window#waybar {
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+#custom-menu {
+	color: #A7C080;
+	background-color: #3C4841;
+	border-radius: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#custom-menu2 {
+	color: #A7C080;
+	background-color: #3C4841;
+	border-radius: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+button {
+	color: #A7C080;
+	background-color:#3C4841;
+	border-radius: 6px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+#window {
+	color: #83C092;
+	background-color: #2E383C;
+	border-radius: 6px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+
+#clock {
+	color: #7FBBB3;
+	background-color: #384B55;
+	border-radius: 6px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+
+#pulseaudio {
+	color: #DBBC7F;
+	background-color: #45443C;
+	border-radius: 6px;
+	padding-right: 1px;
+	padding-left: 1px;
+	margin-right: 2px;
+}
+
+#network {
+	color: #E69875;
+	background-color: #493B40;
+	border-radius: 6px;
+	padding-right: 1px;
+	padding-left: 1px;
+	margin-right: 2px;
+}
+
+#tray {
+	color: #E67E80;
+	background-color: #4C3743;
+	border-radius: 6px;
+	padding-right: 1px;
+	padding-left: 1px;
+}

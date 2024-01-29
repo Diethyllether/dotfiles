@@ -1,0 +1,15 @@
+anchor=top-right
+font=JetBrainsNL 10
+background-color=#3C4841
+text-color=#A7C080
+width=350
+margin=0,20,20
+padding=10
+border-size=2
+border-color=#A7C080
+border-radius=5
+default-timeout=5000
+group-by=summary
+
+[grouped]
+format=<b>%s</b>\n%b

@@ -1,0 +1,37 @@
+theme="everforest_dark"
+
+[editor]
+mouse=true
+middle-click-paste=false
+shell=["zsh", "-c"]
+line-number="relative"
+auto-save=true
+true-color=true
+undercurl=true
+color-modes=true
+
+[editor.statusline]
+left=["mode", "spinner"]
+center=["file-name", "file-modification-indicator"]
+right=["diagnostics", "file-type"]
+mode.normal="𐤲"
+mode.insert="𐤤"
+mode.select="𐤸"
+
+[editor.lsp]
+display-messages=true
+display-inlay-hints=true
+
+[editor.cursor-shape]
+normal="block"
+insert="bar"
+select="underline"
+
+[keys.normal]
+C-s = ":wa!"
+C-x = ":q"
+C-c = ":clipboard-yank"
+C-v = ":clipboard-paste-replace"
+C-S-r = ":config-reload"
+C-S-v = ":vsplit"
+C-S-h = ":hsplit"

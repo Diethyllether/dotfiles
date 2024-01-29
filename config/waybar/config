@@ -1,0 +1,26 @@
+[{
+	"layer": "top",
+	"output": "eDP-1",
+	"position": "top",
+	"spacing": 4,
+	"height": 25,
+	"width": 1366,
+	"include": "~/.config/waybar/Modules.jsonc",
+	"modules-left": ["custom/menu", "sway/workspaces", "sway/window", "sway/mode"],
+	"modules-center": ["clock"],
+	"modules-right": ["pulseaudio", "network", "tray"],
+	"name": "main"
+},
+{
+	"layer": "top",
+	"output": "HDMI-A-1",
+	"position": "top",
+	"spacing": 4,
+	"height": 25,
+	"width": 1920,
+	"include": "~/.config/waybar/Modules.jsonc",
+	"modules-left": ["custom/menu2", "sway/workspaces", "sway/window", "sway/mode"],
+	"modules-center": ["clock"],
+	"modules-right": ["pulseaudio", "network", "tray"],
+	"name": "secondary"
+}]
